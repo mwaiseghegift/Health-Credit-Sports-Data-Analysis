@@ -76,14 +76,14 @@ class DataScheduler:
             elapsed_time = time.time() - start_time
             
             logger.info("="*70)
-            logger.info(f"✅ Fetch completed successfully!")
+            logger.info(f" Fetch completed successfully!")
             logger.info(f"   - Processed: {total_processed} matches")
             logger.info(f"   - Duration: {elapsed_time:.2f} seconds")
             logger.info(f"   - Next fetch: {self.interval_minutes} minutes")
             logger.info("="*70 + "\n")
             
         except Exception as e:
-            logger.error(f"❌ Error during scheduled fetch: {e}", exc_info=True)
+            logger.error(f" Error during scheduled fetch: {e}", exc_info=True)
     
     def run_once(self):
         """Run the fetch job once."""
@@ -94,7 +94,7 @@ class DataScheduler:
     def start(self):
         """Start the scheduler."""
         logger.info(f"\n{'='*70}")
-        logger.info("🚀 Starting Real-Time Sports Analytics Scheduler")
+        logger.info(" Starting Real-Time Sports Analytics Scheduler")
         logger.info(f"{'='*70}")
         logger.info(f"Fetch interval: Every {self.interval_minutes} minutes")
         logger.info(f"Started at: {datetime.now()}")
@@ -113,7 +113,7 @@ class DataScheduler:
                 time.sleep(1)
         except KeyboardInterrupt:
             logger.info("\n" + "="*70)
-            logger.info("⏸️  Scheduler stopped by user")
+            logger.info("⏸  Scheduler stopped by user")
             logger.info("="*70 + "\n")
         except Exception as e:
             logger.error(f"Scheduler error: {e}", exc_info=True)

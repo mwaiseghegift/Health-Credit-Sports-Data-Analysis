@@ -84,17 +84,17 @@ class FootballDataFetcher:
             latency = time.time() - start_time
             
             if response.status_code == 200:
-                logger.info(f"✓ Success: {endpoint} (latency: {latency:.2f}s)")
+                logger.info(f"SUCCESS: {endpoint} (latency: {latency:.2f}s)")
                 return response.json()
             elif response.status_code == 429:
                 logger.warning("Rate limit exceeded. Waiting 60 seconds...")
                 time.sleep(60)
                 return self._make_request(endpoint, params)
             else:
-                logger.error(f"✗ Error {response.status_code}: {endpoint} - {response.text}")
+                logger.error(f"ERROR {response.status_code}: {endpoint} - {response.text}")
                 return None
         except requests.exceptions.RequestException as e:
-            logger.error(f"✗ Request failed: {endpoint} - {str(e)}")
+            logger.error(f"REQUEST FAILED: {endpoint} - {str(e)}")
             return None
     
     def _save_snapshot(self, data: Dict, name: str):

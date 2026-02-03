@@ -267,11 +267,14 @@ class DatabaseManager:
             logger.info("Database connection closed")
 
 
-def get_database_manager() -> DatabaseManager:
+def get_database_manager(db_path: str = None) -> DatabaseManager:
     """
     Factory function to get database manager instance.
     
+    Args:
+        db_path: Optional path to database file
+        
     Returns:
         DatabaseManager instance
     """
-    return DatabaseManager()
+    return DatabaseManager(db_path)

@@ -1,0 +1,1472 @@
+2026-02-04 00:13:02,231 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:13:03,851 - fetch_data - INFO - SUCCESS: competitions (latency: 1.62s)
+2026-02-04 00:13:03,856 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_001303.json
+2026-02-04 00:13:09,594 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 00:13:11,325 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 1.73s)
+2026-02-04 00:13:11,414 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_001311.json
+2026-02-04 00:13:21,235 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 00:13:23,928 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 2.69s)
+2026-02-04 00:13:24,009 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_001323.json
+2026-02-04 00:13:37,434 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 00:13:41,018 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 3.58s)
+2026-02-04 00:13:41,024 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_001341.json
+2026-02-04 00:13:49,407 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 00:13:50,934 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.53s)
+2026-02-04 00:13:50,946 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_001350.json
+2026-02-04 00:14:38,153 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:14:39,512 - fetch_data - INFO - SUCCESS: competitions (latency: 1.36s)
+2026-02-04 00:14:39,516 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_001439.json
+2026-02-04 00:14:39,517 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:14:45,521 - fetch_data - INFO - SUCCESS: competitions (latency: 1.37s)
+2026-02-04 00:14:45,529 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_001445.json
+2026-02-04 00:14:45,531 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:14:51,565 - fetch_data - INFO - SUCCESS: competitions (latency: 1.41s)
+2026-02-04 00:14:51,571 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_001451.json
+2026-02-04 00:28:36,328 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:28:37,840 - fetch_data - INFO - SUCCESS: competitions (latency: 1.51s)
+2026-02-04 00:28:37,847 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_002837.json
+2026-02-04 00:28:52,818 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 00:28:54,690 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 1.87s)
+2026-02-04 00:28:54,786 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_002854.json
+2026-02-04 00:31:32,347 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 00:31:33,655 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.31s)
+2026-02-04 00:31:33,660 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_003133.json
+2026-02-04 00:31:36,856 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 00:31:41,020 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 2.67s)
+2026-02-04 00:31:41,028 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_003141.json
+2026-02-04 00:31:46,920 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 00:31:49,000 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 2.08s)
+2026-02-04 00:31:49,011 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_003149.json
+2026-02-04 00:32:01,218 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:32:02,494 - fetch_data - INFO - SUCCESS: competitions (latency: 1.27s)
+2026-02-04 00:32:02,507 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003202.json
+2026-02-04 00:32:02,509 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:32:08,465 - fetch_data - INFO - SUCCESS: competitions (latency: 1.25s)
+2026-02-04 00:32:08,471 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003208.json
+2026-02-04 00:32:08,473 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:32:14,637 - fetch_data - INFO - SUCCESS: competitions (latency: 1.42s)
+2026-02-04 00:32:14,661 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003214.json
+2026-02-04 00:33:46,130 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 00:33:46,132 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 00:34:19,772 - db_utils - ERROR - Error executing query: (sqlite3.OperationalError) no such column: id
+[SQL: 
+SELECT 
+    id,
+    competition_code,
+    season,
+    matchday,
+    utc_date,
+    status,
+    home_team_name,
+    away_team_name,
+    home_score,
+    away_score,
+    winner
+FROM matches
+ORDER BY utc_date DESC
+]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-04 00:34:32,318 - db_utils - ERROR - Error executing query: (sqlite3.OperationalError) no such column: id
+[SQL: 
+SELECT 
+    id,
+    competition_code,
+    season,
+    matchday,
+    utc_date,
+    status,
+    home_team_name,
+    away_team_name,
+    home_score,
+    away_score,
+    winner
+FROM matches
+ORDER BY utc_date DESC
+]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-04 00:34:44,273 - db_utils - ERROR - Error executing query: (sqlite3.OperationalError) no such column: competition_code
+[SQL: 
+SELECT 
+    match_id,
+    competition_code,
+    season,
+    matchday,
+    utc_date,
+    status,
+    home_team_name,
+    away_team_name,
+    home_score,
+    away_score,
+    winner
+FROM matches
+ORDER BY utc_date DESC
+]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-04 00:35:01,611 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 00:35:03,064 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.45s)
+2026-02-04 00:35:03,070 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_003503.json
+2026-02-04 00:35:19,555 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 00:35:19,557 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 00:35:41,911 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 00:35:43,473 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.56s)
+2026-02-04 00:35:43,483 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_003543.json
+2026-02-04 00:37:21,866 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:37:23,344 - fetch_data - INFO - SUCCESS: competitions (latency: 1.48s)
+2026-02-04 00:37:23,350 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003723.json
+2026-02-04 00:37:30,209 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 00:37:32,178 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 1.97s)
+2026-02-04 00:37:32,258 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_003732.json
+2026-02-04 00:37:34,479 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 00:37:37,523 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.31s)
+2026-02-04 00:37:37,529 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_003737.json
+2026-02-04 00:37:42,077 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 00:37:44,123 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 1.91s)
+2026-02-04 00:37:44,130 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_003744.json
+2026-02-04 00:37:48,058 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:37:49,502 - fetch_data - INFO - SUCCESS: competitions (latency: 1.29s)
+2026-02-04 00:37:49,508 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003749.json
+2026-02-04 00:37:49,510 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:37:55,572 - fetch_data - INFO - SUCCESS: competitions (latency: 1.36s)
+2026-02-04 00:37:55,576 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003755.json
+2026-02-04 00:37:55,578 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:38:01,539 - fetch_data - INFO - SUCCESS: competitions (latency: 1.33s)
+2026-02-04 00:38:01,543 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_003801.json
+2026-02-04 00:38:05,754 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 00:38:05,756 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 00:40:15,648 - db_utils - ERROR - Error executing query: (sqlite3.OperationalError) no such column: id
+[SQL: 
+SELECT 
+    id,
+    competition_code,
+    season,
+    matchday,
+    utc_date,
+    status,
+    home_team_name,
+    away_team_name,
+    home_score,
+    away_score,
+    winner
+FROM matches
+ORDER BY utc_date DESC
+]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-02-04 00:47:30,339 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 00:47:30,343 - db_utils - INFO - Database initialized at: data/sports.db
+2026-02-04 00:47:54,220 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:47:55,489 - fetch_data - INFO - SUCCESS: competitions (latency: 1.27s)
+2026-02-04 00:47:55,496 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_004755.json
+2026-02-04 00:47:55,580 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 00:48:02,213 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 1.99s)
+2026-02-04 00:48:02,325 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_004802.json
+2026-02-04 00:48:02,372 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 00:48:07,456 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.23s)
+2026-02-04 00:48:07,464 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_004807.json
+2026-02-04 00:48:07,507 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 00:48:14,367 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 2.14s)
+2026-02-04 00:48:14,373 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_004814.json
+2026-02-04 00:48:14,412 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:48:19,649 - fetch_data - INFO - SUCCESS: competitions (latency: 1.43s)
+2026-02-04 00:48:19,655 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_004819.json
+2026-02-04 00:48:19,658 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:48:25,497 - fetch_data - INFO - SUCCESS: competitions (latency: 1.27s)
+2026-02-04 00:48:25,502 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_004825.json
+2026-02-04 00:48:25,504 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:48:31,615 - fetch_data - INFO - SUCCESS: competitions (latency: 1.39s)
+2026-02-04 00:48:31,620 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_004831.json
+2026-02-04 00:48:31,672 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 00:48:31,674 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 00:48:32,588 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 00:48:32,590 - db_utils - INFO - Database initialized at: data/sports.db
+2026-02-04 00:57:50,646 - fetch_data - INFO - Fetching competitions...
+2026-02-04 00:57:51,943 - fetch_data - INFO - SUCCESS: competitions (latency: 1.30s)
+2026-02-04 00:57:51,959 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_005751.json
+2026-02-04 01:02:24,198 - fetch_data - INFO - Fetching competitions...
+2026-02-04 01:02:25,430 - fetch_data - INFO - SUCCESS: competitions (latency: 1.23s)
+2026-02-04 01:02:25,439 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_010225.json
+2026-02-04 01:02:31,385 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 01:02:33,720 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 2.33s)
+2026-02-04 01:02:33,795 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_010233.json
+2026-02-04 01:02:36,506 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 01:02:38,651 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.26s)
+2026-02-04 01:02:38,657 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_010238.json
+2026-02-04 01:03:09,233 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 01:03:11,496 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 2.26s)
+2026-02-04 01:03:11,504 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_010311.json
+2026-02-04 01:03:18,533 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 01:03:18,536 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 01:03:18,544 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 01:03:18,546 - db_utils - INFO - Database initialized at: data/sports.db
+2026-02-04 01:03:18,548 - process_data - INFO - Data processor initialized
+2026-02-04 01:03:18,554 - db_utils - INFO - Inserted new match 537785
+2026-02-04 01:03:18,991 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:18,996 - db_utils - INFO - Inserted new match 537786
+2026-02-04 01:03:19,400 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:19,404 - db_utils - INFO - Inserted new match 537787
+2026-02-04 01:03:19,900 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:19,902 - db_utils - INFO - Inserted new match 537789
+2026-02-04 01:03:20,369 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:20,390 - db_utils - INFO - Inserted new match 537790
+2026-02-04 01:03:20,866 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:20,870 - db_utils - INFO - Inserted new match 537791
+2026-02-04 01:03:21,324 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:21,329 - db_utils - INFO - Inserted new match 537788
+2026-02-04 01:03:21,767 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:21,770 - db_utils - INFO - Inserted new match 537792
+2026-02-04 01:03:22,240 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:22,249 - db_utils - INFO - Inserted new match 537793
+2026-02-04 01:03:22,692 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:22,698 - db_utils - INFO - Inserted new match 537794
+2026-02-04 01:03:23,134 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:23,141 - db_utils - INFO - Inserted new match 537804
+2026-02-04 01:03:23,633 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:23,636 - db_utils - INFO - Inserted new match 537802
+2026-02-04 01:03:24,100 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:24,107 - db_utils - INFO - Inserted new match 537795
+2026-02-04 01:03:24,541 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:24,549 - db_utils - INFO - Inserted new match 537798
+2026-02-04 01:03:24,992 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:25,003 - db_utils - INFO - Inserted new match 537799
+2026-02-04 01:03:25,491 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:25,497 - db_utils - INFO - Inserted new match 537797
+2026-02-04 01:03:25,950 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:25,953 - db_utils - INFO - Inserted new match 537796
+2026-02-04 01:03:26,400 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:26,404 - db_utils - INFO - Inserted new match 537800
+2026-02-04 01:03:26,825 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:26,834 - db_utils - INFO - Inserted new match 537801
+2026-02-04 01:03:27,317 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:27,322 - db_utils - INFO - Inserted new match 537803
+2026-02-04 01:03:27,767 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:27,770 - db_utils - INFO - Inserted new match 537808
+2026-02-04 01:03:28,245 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:28,249 - db_utils - INFO - Inserted new match 537805
+2026-02-04 01:03:28,758 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:28,764 - db_utils - INFO - Inserted new match 537811
+2026-02-04 01:03:29,217 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:29,222 - db_utils - INFO - Inserted new match 537813
+2026-02-04 01:03:29,675 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:29,680 - db_utils - INFO - Inserted new match 537814
+2026-02-04 01:03:30,141 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:30,147 - db_utils - INFO - Inserted new match 537810
+2026-02-04 01:03:30,625 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:30,631 - db_utils - INFO - Inserted new match 537807
+2026-02-04 01:03:31,161 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:31,174 - db_utils - INFO - Inserted new match 537812
+2026-02-04 01:03:31,667 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:31,673 - db_utils - INFO - Inserted new match 537809
+2026-02-04 01:03:32,233 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:32,235 - db_utils - INFO - Inserted new match 537806
+2026-02-04 01:03:32,710 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:32,724 - db_utils - INFO - Inserted new match 537817
+2026-02-04 01:03:33,291 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:33,297 - db_utils - INFO - Inserted new match 537815
+2026-02-04 01:03:33,874 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:33,880 - db_utils - INFO - Inserted new match 537816
+2026-02-04 01:03:34,449 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:34,453 - db_utils - INFO - Inserted new match 537820
+2026-02-04 01:03:35,008 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:35,014 - db_utils - INFO - Inserted new match 537821
+2026-02-04 01:03:35,567 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:35,581 - db_utils - INFO - Inserted new match 537823
+2026-02-04 01:03:36,212 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:36,221 - db_utils - INFO - Inserted new match 537824
+2026-02-04 01:03:36,765 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:36,768 - db_utils - INFO - Inserted new match 537818
+2026-02-04 01:03:37,316 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:37,319 - db_utils - INFO - Inserted new match 537819
+2026-02-04 01:03:37,940 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:37,944 - db_utils - INFO - Inserted new match 537822
+2026-02-04 01:03:38,482 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:38,486 - db_utils - INFO - Inserted new match 537831
+2026-02-04 01:03:39,016 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:39,019 - db_utils - INFO - Inserted new match 537827
+2026-02-04 01:03:39,507 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:39,512 - db_utils - INFO - Inserted new match 537829
+2026-02-04 01:03:40,082 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:40,085 - db_utils - INFO - Inserted new match 537833
+2026-02-04 01:03:40,707 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:40,711 - db_utils - INFO - Inserted new match 537834
+2026-02-04 01:03:41,274 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:41,279 - db_utils - INFO - Inserted new match 537832
+2026-02-04 01:03:41,908 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:41,930 - db_utils - INFO - Inserted new match 537830
+2026-02-04 01:03:42,516 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:42,519 - db_utils - INFO - Inserted new match 537825
+2026-02-04 01:03:43,207 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:43,216 - db_utils - INFO - Inserted new match 537826
+2026-02-04 01:03:43,782 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:43,787 - db_utils - INFO - Inserted new match 537828
+2026-02-04 01:03:44,356 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:44,361 - db_utils - INFO - Inserted new match 537837
+2026-02-04 01:03:44,933 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:44,936 - db_utils - INFO - Inserted new match 537836
+2026-02-04 01:03:45,573 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:45,578 - db_utils - INFO - Inserted new match 537838
+2026-02-04 01:03:46,165 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:46,168 - db_utils - INFO - Inserted new match 537840
+2026-02-04 01:03:46,656 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:46,660 - db_utils - INFO - Inserted new match 537841
+2026-02-04 01:03:47,240 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:47,248 - db_utils - INFO - Inserted new match 537843
+2026-02-04 01:03:47,890 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:47,896 - db_utils - INFO - Inserted new match 537844
+2026-02-04 01:03:48,366 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:48,369 - db_utils - INFO - Inserted new match 537835
+2026-02-04 01:03:48,940 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:48,945 - db_utils - INFO - Inserted new match 537842
+2026-02-04 01:03:49,557 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:49,564 - db_utils - INFO - Inserted new match 537839
+2026-02-04 01:03:50,182 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:50,187 - db_utils - INFO - Inserted new match 537845
+2026-02-04 01:03:50,790 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:50,795 - db_utils - INFO - Inserted new match 537851
+2026-02-04 01:03:51,423 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:51,430 - db_utils - INFO - Inserted new match 537847
+2026-02-04 01:03:52,007 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:52,011 - db_utils - INFO - Inserted new match 537852
+2026-02-04 01:03:52,582 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:52,585 - db_utils - INFO - Inserted new match 537849
+2026-02-04 01:03:53,215 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:53,219 - db_utils - INFO - Inserted new match 537846
+2026-02-04 01:03:53,757 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:53,761 - db_utils - INFO - Inserted new match 537850
+2026-02-04 01:03:54,377 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:54,386 - db_utils - INFO - Inserted new match 537853
+2026-02-04 01:03:54,990 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:54,994 - db_utils - INFO - Inserted new match 537854
+2026-02-04 01:03:55,632 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:55,637 - db_utils - INFO - Inserted new match 537848
+2026-02-04 01:03:56,224 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:56,246 - db_utils - INFO - Inserted new match 537862
+2026-02-04 01:03:56,865 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:56,868 - db_utils - INFO - Inserted new match 537856
+2026-02-04 01:03:57,473 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:57,479 - db_utils - INFO - Inserted new match 537857
+2026-02-04 01:03:58,082 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:58,086 - db_utils - INFO - Inserted new match 537858
+2026-02-04 01:03:58,658 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:58,674 - db_utils - INFO - Inserted new match 537861
+2026-02-04 01:03:59,365 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:03:59,369 - db_utils - INFO - Inserted new match 537855
+2026-02-04 01:03:59,999 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:00,010 - db_utils - INFO - Inserted new match 537859
+2026-02-04 01:04:00,630 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:00,634 - db_utils - INFO - Inserted new match 537863
+2026-02-04 01:04:01,360 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:01,368 - db_utils - INFO - Inserted new match 537860
+2026-02-04 01:04:01,940 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:01,947 - db_utils - INFO - Inserted new match 537864
+2026-02-04 01:04:02,531 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:02,535 - db_utils - INFO - Inserted new match 537871
+2026-02-04 01:04:03,015 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:03,022 - db_utils - INFO - Inserted new match 537869
+2026-02-04 01:04:03,648 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:03,654 - db_utils - INFO - Inserted new match 537873
+2026-02-04 01:04:04,223 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:04,227 - db_utils - INFO - Inserted new match 537872
+2026-02-04 01:04:04,864 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:04,868 - db_utils - INFO - Inserted new match 537868
+2026-02-04 01:04:05,456 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:05,462 - db_utils - INFO - Inserted new match 537865
+2026-02-04 01:04:06,073 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:06,085 - db_utils - INFO - Inserted new match 537866
+2026-02-04 01:04:06,714 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:06,717 - db_utils - INFO - Inserted new match 537867
+2026-02-04 01:04:07,373 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:07,387 - db_utils - INFO - Inserted new match 537874
+2026-02-04 01:04:07,985 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:07,988 - db_utils - INFO - Inserted new match 537870
+2026-02-04 01:04:08,522 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:08,529 - db_utils - INFO - Inserted new match 537876
+2026-02-04 01:04:09,205 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:09,210 - db_utils - INFO - Inserted new match 537877
+2026-02-04 01:04:09,781 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:09,785 - db_utils - INFO - Inserted new match 537878
+2026-02-04 01:04:10,433 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:10,446 - db_utils - INFO - Inserted new match 537879
+2026-02-04 01:04:11,056 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:11,069 - db_utils - INFO - Inserted new match 537882
+2026-02-04 01:04:11,656 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:11,660 - db_utils - INFO - Inserted new match 537883
+2026-02-04 01:04:12,256 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:12,262 - db_utils - INFO - Inserted new match 537880
+2026-02-04 01:04:12,873 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:12,879 - db_utils - INFO - Inserted new match 537884
+2026-02-04 01:04:13,498 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:13,502 - db_utils - INFO - Inserted new match 537881
+2026-02-04 01:04:14,107 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:14,130 - db_utils - INFO - Inserted new match 537875
+2026-02-04 01:04:14,731 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:14,735 - db_utils - INFO - Inserted new match 537893
+2026-02-04 01:04:15,421 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:15,426 - db_utils - INFO - Inserted new match 537890
+2026-02-04 01:04:16,009 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:16,025 - db_utils - INFO - Inserted new match 537894
+2026-02-04 01:04:16,646 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:16,650 - db_utils - INFO - Inserted new match 537885
+2026-02-04 01:04:17,205 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:17,210 - db_utils - INFO - Inserted new match 537889
+2026-02-04 01:04:17,729 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:17,733 - db_utils - INFO - Inserted new match 537886
+2026-02-04 01:04:18,222 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:18,229 - db_utils - INFO - Inserted new match 537887
+2026-02-04 01:04:18,796 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:18,799 - db_utils - INFO - Inserted new match 537888
+2026-02-04 01:04:19,288 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:19,293 - db_utils - INFO - Inserted new match 537892
+2026-02-04 01:04:19,764 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:19,767 - db_utils - INFO - Inserted new match 537891
+2026-02-04 01:04:20,313 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:20,316 - db_utils - INFO - Inserted new match 537898
+2026-02-04 01:04:21,039 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:21,044 - db_utils - INFO - Inserted new match 537895
+2026-02-04 01:04:21,606 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:21,611 - db_utils - INFO - Inserted new match 537896
+2026-02-04 01:04:22,265 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:22,278 - db_utils - INFO - Inserted new match 537899
+2026-02-04 01:04:22,823 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:22,839 - db_utils - INFO - Inserted new match 537900
+2026-02-04 01:04:23,497 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:23,501 - db_utils - INFO - Inserted new match 537904
+2026-02-04 01:04:24,072 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:24,079 - db_utils - INFO - Inserted new match 537903
+2026-02-04 01:04:24,627 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:24,631 - db_utils - INFO - Inserted new match 537901
+2026-02-04 01:04:25,197 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:25,203 - db_utils - INFO - Inserted new match 537897
+2026-02-04 01:04:25,739 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:25,746 - db_utils - INFO - Inserted new match 537902
+2026-02-04 01:04:26,313 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:26,317 - db_utils - INFO - Inserted new match 537905
+2026-02-04 01:04:26,906 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:26,927 - db_utils - INFO - Inserted new match 537908
+2026-02-04 01:04:27,547 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:27,550 - db_utils - INFO - Inserted new match 537911
+2026-02-04 01:04:28,113 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:28,117 - db_utils - INFO - Inserted new match 537910
+2026-02-04 01:04:28,647 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:28,652 - db_utils - INFO - Inserted new match 537913
+2026-02-04 01:04:29,163 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:29,166 - db_utils - INFO - Inserted new match 537907
+2026-02-04 01:04:29,713 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:29,716 - db_utils - INFO - Inserted new match 537906
+2026-02-04 01:04:30,288 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:30,292 - db_utils - INFO - Inserted new match 537912
+2026-02-04 01:04:30,899 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:30,903 - db_utils - INFO - Inserted new match 537914
+2026-02-04 01:04:31,521 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:31,527 - db_utils - INFO - Inserted new match 537909
+2026-02-04 01:04:32,171 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:32,178 - db_utils - INFO - Inserted new match 537915
+2026-02-04 01:04:32,772 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:32,777 - db_utils - INFO - Inserted new match 537919
+2026-02-04 01:04:33,397 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:33,414 - db_utils - INFO - Inserted new match 537923
+2026-02-04 01:04:34,089 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:34,095 - db_utils - INFO - Inserted new match 537916
+2026-02-04 01:04:34,696 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:34,700 - db_utils - INFO - Inserted new match 537917
+2026-02-04 01:04:35,288 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:35,296 - db_utils - INFO - Inserted new match 537918
+2026-02-04 01:04:35,930 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:35,937 - db_utils - INFO - Inserted new match 537924
+2026-02-04 01:04:36,538 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:36,544 - db_utils - INFO - Inserted new match 537920
+2026-02-04 01:04:37,247 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:37,253 - db_utils - INFO - Inserted new match 537921
+2026-02-04 01:04:37,871 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:37,877 - db_utils - INFO - Inserted new match 537922
+2026-02-04 01:04:38,479 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:38,484 - db_utils - INFO - Inserted new match 537926
+2026-02-04 01:04:39,046 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:39,049 - db_utils - INFO - Inserted new match 537925
+2026-02-04 01:04:39,679 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:39,683 - db_utils - INFO - Inserted new match 537928
+2026-02-04 01:04:40,319 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:40,326 - db_utils - INFO - Inserted new match 537931
+2026-02-04 01:04:41,014 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:41,027 - db_utils - INFO - Inserted new match 537932
+2026-02-04 01:04:41,656 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:41,681 - db_utils - INFO - Inserted new match 537933
+2026-02-04 01:04:42,296 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:42,300 - db_utils - INFO - Inserted new match 537930
+2026-02-04 01:04:42,971 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:42,980 - db_utils - INFO - Inserted new match 537927
+2026-02-04 01:04:43,621 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:43,629 - db_utils - INFO - Inserted new match 537929
+2026-02-04 01:04:44,254 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:44,261 - db_utils - INFO - Inserted new match 537934
+2026-02-04 01:04:44,962 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:44,966 - db_utils - INFO - Inserted new match 537940
+2026-02-04 01:04:45,597 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:45,611 - db_utils - INFO - Inserted new match 537941
+2026-02-04 01:04:46,237 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:46,242 - db_utils - INFO - Inserted new match 537939
+2026-02-04 01:04:46,821 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:46,827 - db_utils - INFO - Inserted new match 537937
+2026-02-04 01:04:47,388 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:47,397 - db_utils - INFO - Inserted new match 537935
+2026-02-04 01:04:48,038 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:48,053 - db_utils - INFO - Inserted new match 537936
+2026-02-04 01:04:48,659 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:48,664 - db_utils - INFO - Inserted new match 537943
+2026-02-04 01:04:49,287 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:49,291 - db_utils - INFO - Inserted new match 537944
+2026-02-04 01:04:49,979 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:49,982 - db_utils - INFO - Inserted new match 537938
+2026-02-04 01:04:50,645 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:50,649 - db_utils - INFO - Inserted new match 537942
+2026-02-04 01:04:51,145 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:51,148 - db_utils - INFO - Inserted new match 537952
+2026-02-04 01:04:51,795 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:51,799 - db_utils - INFO - Inserted new match 537945
+2026-02-04 01:04:52,387 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:52,391 - db_utils - INFO - Inserted new match 537947
+2026-02-04 01:04:53,087 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:53,095 - db_utils - INFO - Inserted new match 537951
+2026-02-04 01:04:53,671 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:53,674 - db_utils - INFO - Inserted new match 537954
+2026-02-04 01:04:54,254 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:54,262 - db_utils - INFO - Inserted new match 537953
+2026-02-04 01:04:54,846 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:54,850 - db_utils - INFO - Inserted new match 537948
+2026-02-04 01:04:55,345 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:55,349 - db_utils - INFO - Inserted new match 537950
+2026-02-04 01:04:55,829 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:55,841 - db_utils - INFO - Inserted new match 537946
+2026-02-04 01:04:56,337 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:56,341 - db_utils - INFO - Inserted new match 537949
+2026-02-04 01:04:56,921 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:56,925 - db_utils - INFO - Inserted new match 537962
+2026-02-04 01:04:57,520 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:57,526 - db_utils - INFO - Inserted new match 537963
+2026-02-04 01:04:58,062 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:58,065 - db_utils - INFO - Inserted new match 537957
+2026-02-04 01:04:58,779 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:58,785 - db_utils - INFO - Inserted new match 537958
+2026-02-04 01:04:59,354 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:59,362 - db_utils - INFO - Inserted new match 537959
+2026-02-04 01:04:59,920 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:04:59,929 - db_utils - INFO - Inserted new match 537961
+2026-02-04 01:05:00,537 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:00,541 - db_utils - INFO - Inserted new match 537964
+2026-02-04 01:05:01,020 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:01,025 - db_utils - INFO - Inserted new match 537960
+2026-02-04 01:05:01,587 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:01,593 - db_utils - INFO - Inserted new match 537955
+2026-02-04 01:05:02,195 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:02,198 - db_utils - INFO - Inserted new match 537956
+2026-02-04 01:05:02,753 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:02,758 - db_utils - INFO - Inserted new match 537969
+2026-02-04 01:05:03,286 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:03,289 - db_utils - INFO - Inserted new match 537970
+2026-02-04 01:05:03,828 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:03,830 - db_utils - INFO - Inserted new match 537973
+2026-02-04 01:05:04,495 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:04,508 - db_utils - INFO - Inserted new match 537974
+2026-02-04 01:05:05,064 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:05,078 - db_utils - INFO - Inserted new match 537967
+2026-02-04 01:05:05,679 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:05,685 - db_utils - INFO - Inserted new match 537972
+2026-02-04 01:05:06,304 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:06,323 - db_utils - INFO - Inserted new match 537966
+2026-02-04 01:05:07,045 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:07,049 - db_utils - INFO - Inserted new match 537971
+2026-02-04 01:05:07,587 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:07,593 - db_utils - INFO - Inserted new match 537965
+2026-02-04 01:05:08,236 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:08,240 - db_utils - INFO - Inserted new match 537968
+2026-02-04 01:05:08,852 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:08,856 - db_utils - INFO - Inserted new match 537976
+2026-02-04 01:05:09,420 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:09,424 - db_utils - INFO - Inserted new match 537977
+2026-02-04 01:05:10,010 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:10,014 - db_utils - INFO - Inserted new match 537984
+2026-02-04 01:05:10,633 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:10,637 - db_utils - INFO - Inserted new match 537975
+2026-02-04 01:05:11,203 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:11,207 - db_utils - INFO - Inserted new match 537980
+2026-02-04 01:05:11,962 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:11,976 - db_utils - INFO - Inserted new match 537978
+2026-02-04 01:05:12,595 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:12,601 - db_utils - INFO - Inserted new match 537982
+2026-02-04 01:05:13,177 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:13,182 - db_utils - INFO - Inserted new match 537983
+2026-02-04 01:05:13,769 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:13,773 - db_utils - INFO - Inserted new match 537979
+2026-02-04 01:05:14,328 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:14,331 - db_utils - INFO - Inserted new match 537981
+2026-02-04 01:05:15,003 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:15,014 - db_utils - INFO - Inserted new match 537994
+2026-02-04 01:05:15,618 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:15,622 - db_utils - INFO - Inserted new match 537985
+2026-02-04 01:05:16,161 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:16,166 - db_utils - INFO - Inserted new match 537986
+2026-02-04 01:05:16,760 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:16,763 - db_utils - INFO - Inserted new match 537988
+2026-02-04 01:05:17,344 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:17,347 - db_utils - INFO - Inserted new match 537990
+2026-02-04 01:05:17,944 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:17,947 - db_utils - INFO - Inserted new match 537991
+2026-02-04 01:05:18,478 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:18,480 - db_utils - INFO - Inserted new match 537992
+2026-02-04 01:05:18,961 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:18,965 - db_utils - INFO - Inserted new match 537989
+2026-02-04 01:05:19,536 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:19,547 - db_utils - INFO - Inserted new match 537993
+2026-02-04 01:05:20,253 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:20,275 - db_utils - INFO - Inserted new match 537987
+2026-02-04 01:05:20,819 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:20,826 - db_utils - INFO - Inserted new match 538001
+2026-02-04 01:05:21,433 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:21,453 - db_utils - INFO - Inserted new match 537995
+2026-02-04 01:05:21,953 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:21,962 - db_utils - INFO - Inserted new match 537998
+2026-02-04 01:05:22,436 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:22,444 - db_utils - INFO - Inserted new match 537999
+2026-02-04 01:05:23,033 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:23,037 - db_utils - INFO - Inserted new match 538000
+2026-02-04 01:05:23,495 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:23,499 - db_utils - INFO - Inserted new match 538003
+2026-02-04 01:05:24,111 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:24,118 - db_utils - INFO - Inserted new match 538002
+2026-02-04 01:05:24,769 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:24,773 - db_utils - INFO - Inserted new match 538004
+2026-02-04 01:05:25,415 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:25,418 - db_utils - INFO - Inserted new match 537996
+2026-02-04 01:05:25,993 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:25,996 - db_utils - INFO - Inserted new match 537997
+2026-02-04 01:05:26,602 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:26,607 - db_utils - INFO - Inserted new match 538014
+2026-02-04 01:05:27,094 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:27,098 - db_utils - INFO - Inserted new match 538009
+2026-02-04 01:05:27,726 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:27,729 - db_utils - INFO - Inserted new match 538011
+2026-02-04 01:05:28,318 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:28,323 - db_utils - INFO - Inserted new match 538012
+2026-02-04 01:05:28,968 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:28,982 - db_utils - INFO - Inserted new match 538005
+2026-02-04 01:05:29,602 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:29,606 - db_utils - INFO - Inserted new match 538006
+2026-02-04 01:05:30,293 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:30,298 - db_utils - INFO - Inserted new match 538008
+2026-02-04 01:05:30,877 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:30,879 - db_utils - INFO - Inserted new match 538013
+2026-02-04 01:05:31,482 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:31,497 - db_utils - INFO - Inserted new match 538007
+2026-02-04 01:05:32,128 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:32,140 - db_utils - INFO - Inserted new match 538010
+2026-02-04 01:05:32,769 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:32,781 - db_utils - INFO - Inserted new match 538017
+2026-02-04 01:05:33,419 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:33,431 - db_utils - INFO - Inserted new match 538020
+2026-02-04 01:05:34,102 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:34,109 - db_utils - INFO - Inserted new match 538024
+2026-02-04 01:05:34,760 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:34,764 - db_utils - INFO - Inserted new match 538018
+2026-02-04 01:05:35,393 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:35,396 - db_utils - INFO - Inserted new match 538019
+2026-02-04 01:05:35,985 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:35,997 - db_utils - INFO - Inserted new match 538016
+2026-02-04 01:05:36,700 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:36,715 - db_utils - INFO - Inserted new match 538021
+2026-02-04 01:05:37,335 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:37,339 - db_utils - INFO - Inserted new match 538022
+2026-02-04 01:05:37,935 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:37,939 - db_utils - INFO - Inserted new match 538023
+2026-02-04 01:05:38,601 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:38,605 - db_utils - INFO - Inserted new match 538015
+2026-02-04 01:05:39,366 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:05:39,369 - db_utils - INFO - Inserted new match 538031
+2026-02-04 01:05:39,803 - db_utils - INFO - Inserted new match 538032
+2026-02-04 01:05:40,231 - db_utils - INFO - Inserted new match 538025
+2026-02-04 01:05:40,674 - db_utils - INFO - Inserted new match 538027
+2026-02-04 01:05:41,150 - db_utils - INFO - Inserted new match 538028
+2026-02-04 01:05:41,602 - db_utils - INFO - Inserted new match 538029
+2026-02-04 01:05:42,051 - db_utils - INFO - Inserted new match 538034
+2026-02-04 01:05:42,506 - db_utils - INFO - Inserted new match 538033
+2026-02-04 01:05:43,023 - db_utils - INFO - Inserted new match 538026
+2026-02-04 01:05:43,495 - db_utils - INFO - Inserted new match 538030
+2026-02-04 01:05:43,871 - db_utils - INFO - Inserted new match 538039
+2026-02-04 01:05:44,260 - db_utils - INFO - Inserted new match 538040
+2026-02-04 01:05:44,669 - db_utils - INFO - Inserted new match 538043
+2026-02-04 01:05:45,078 - db_utils - INFO - Inserted new match 538044
+2026-02-04 01:05:45,478 - db_utils - INFO - Inserted new match 538036
+2026-02-04 01:05:45,919 - db_utils - INFO - Inserted new match 538037
+2026-02-04 01:05:46,286 - db_utils - INFO - Inserted new match 538041
+2026-02-04 01:05:46,711 - db_utils - INFO - Inserted new match 538042
+2026-02-04 01:05:47,061 - db_utils - INFO - Inserted new match 538035
+2026-02-04 01:05:47,451 - db_utils - INFO - Inserted new match 538038
+2026-02-04 01:05:47,985 - db_utils - INFO - Inserted new match 538046
+2026-02-04 01:05:48,419 - db_utils - INFO - Inserted new match 538048
+2026-02-04 01:05:48,852 - db_utils - INFO - Inserted new match 538049
+2026-02-04 01:05:49,210 - db_utils - INFO - Inserted new match 538054
+2026-02-04 01:05:49,601 - db_utils - INFO - Inserted new match 538051
+2026-02-04 01:05:50,111 - db_utils - INFO - Inserted new match 538045
+2026-02-04 01:05:50,547 - db_utils - INFO - Inserted new match 538047
+2026-02-04 01:05:50,986 - db_utils - INFO - Inserted new match 538052
+2026-02-04 01:05:51,369 - db_utils - INFO - Inserted new match 538053
+2026-02-04 01:05:51,829 - db_utils - INFO - Inserted new match 538050
+2026-02-04 01:05:52,277 - db_utils - INFO - Inserted new match 538064
+2026-02-04 01:05:52,719 - db_utils - INFO - Inserted new match 538055
+2026-02-04 01:05:53,144 - db_utils - INFO - Inserted new match 538058
+2026-02-04 01:05:53,636 - db_utils - INFO - Inserted new match 538060
+2026-02-04 01:05:54,069 - db_utils - INFO - Inserted new match 538063
+2026-02-04 01:05:54,511 - db_utils - INFO - Inserted new match 538061
+2026-02-04 01:05:55,010 - db_utils - INFO - Inserted new match 538056
+2026-02-04 01:05:55,427 - db_utils - INFO - Inserted new match 538059
+2026-02-04 01:05:55,884 - db_utils - INFO - Inserted new match 538062
+2026-02-04 01:05:56,318 - db_utils - INFO - Inserted new match 538057
+2026-02-04 01:05:56,727 - db_utils - INFO - Inserted new match 538065
+2026-02-04 01:05:57,177 - db_utils - INFO - Inserted new match 538068
+2026-02-04 01:05:57,693 - db_utils - INFO - Inserted new match 538070
+2026-02-04 01:05:58,143 - db_utils - INFO - Inserted new match 538074
+2026-02-04 01:05:58,593 - db_utils - INFO - Inserted new match 538066
+2026-02-04 01:05:59,111 - db_utils - INFO - Inserted new match 538067
+2026-02-04 01:05:59,535 - db_utils - INFO - Inserted new match 538069
+2026-02-04 01:05:59,943 - db_utils - INFO - Inserted new match 538071
+2026-02-04 01:06:00,394 - db_utils - INFO - Inserted new match 538072
+2026-02-04 01:06:00,860 - db_utils - INFO - Inserted new match 538073
+2026-02-04 01:06:01,293 - db_utils - INFO - Inserted new match 538084
+2026-02-04 01:06:01,776 - db_utils - INFO - Inserted new match 538075
+2026-02-04 01:06:02,227 - db_utils - INFO - Inserted new match 538076
+2026-02-04 01:06:02,688 - db_utils - INFO - Inserted new match 538079
+2026-02-04 01:06:03,236 - db_utils - INFO - Inserted new match 538082
+2026-02-04 01:06:03,652 - db_utils - INFO - Inserted new match 538083
+2026-02-04 01:06:04,135 - db_utils - INFO - Inserted new match 538080
+2026-02-04 01:06:04,677 - db_utils - INFO - Inserted new match 538077
+2026-02-04 01:06:05,143 - db_utils - INFO - Inserted new match 538081
+2026-02-04 01:06:05,576 - db_utils - INFO - Inserted new match 538078
+2026-02-04 01:06:06,001 - db_utils - INFO - Inserted new match 538085
+2026-02-04 01:06:06,418 - db_utils - INFO - Inserted new match 538087
+2026-02-04 01:06:06,835 - db_utils - INFO - Inserted new match 538086
+2026-02-04 01:06:07,276 - db_utils - INFO - Inserted new match 538089
+2026-02-04 01:06:07,702 - db_utils - INFO - Inserted new match 538091
+2026-02-04 01:06:08,118 - db_utils - INFO - Inserted new match 538094
+2026-02-04 01:06:08,560 - db_utils - INFO - Inserted new match 538088
+2026-02-04 01:06:09,001 - db_utils - INFO - Inserted new match 538090
+2026-02-04 01:06:09,477 - db_utils - INFO - Inserted new match 538092
+2026-02-04 01:06:09,934 - db_utils - INFO - Inserted new match 538093
+2026-02-04 01:06:10,543 - db_utils - INFO - Inserted new match 538095
+2026-02-04 01:06:10,810 - db_utils - INFO - Inserted new match 538096
+2026-02-04 01:06:11,226 - db_utils - INFO - Inserted new match 538097
+2026-02-04 01:06:11,693 - db_utils - INFO - Inserted new match 538098
+2026-02-04 01:06:12,125 - db_utils - INFO - Inserted new match 538099
+2026-02-04 01:06:12,534 - db_utils - INFO - Inserted new match 538100
+2026-02-04 01:06:12,968 - db_utils - INFO - Inserted new match 538101
+2026-02-04 01:06:13,459 - db_utils - INFO - Inserted new match 538102
+2026-02-04 01:06:13,893 - db_utils - INFO - Inserted new match 538103
+2026-02-04 01:06:14,326 - db_utils - INFO - Inserted new match 538104
+2026-02-04 01:06:14,793 - db_utils - INFO - Inserted new match 538112
+2026-02-04 01:06:15,176 - db_utils - INFO - Inserted new match 538113
+2026-02-04 01:06:15,628 - db_utils - INFO - Inserted new match 538114
+2026-02-04 01:06:16,101 - db_utils - INFO - Inserted new match 538105
+2026-02-04 01:06:16,543 - db_utils - INFO - Inserted new match 538106
+2026-02-04 01:06:17,084 - db_utils - INFO - Inserted new match 538107
+2026-02-04 01:06:17,519 - db_utils - INFO - Inserted new match 538108
+2026-02-04 01:06:17,934 - db_utils - INFO - Inserted new match 538109
+2026-02-04 01:06:18,310 - db_utils - INFO - Inserted new match 538110
+2026-02-04 01:06:18,767 - db_utils - INFO - Inserted new match 538111
+2026-02-04 01:06:19,126 - db_utils - INFO - Inserted new match 538115
+2026-02-04 01:06:19,550 - db_utils - INFO - Inserted new match 538116
+2026-02-04 01:06:19,976 - db_utils - INFO - Inserted new match 538117
+2026-02-04 01:06:20,309 - db_utils - INFO - Inserted new match 538118
+2026-02-04 01:06:20,701 - db_utils - INFO - Inserted new match 538119
+2026-02-04 01:06:21,042 - db_utils - INFO - Inserted new match 538120
+2026-02-04 01:06:21,575 - db_utils - INFO - Inserted new match 538121
+2026-02-04 01:06:21,943 - db_utils - INFO - Inserted new match 538122
+2026-02-04 01:06:22,359 - db_utils - INFO - Inserted new match 538123
+2026-02-04 01:06:22,826 - db_utils - INFO - Inserted new match 538124
+2026-02-04 01:06:23,251 - db_utils - INFO - Inserted new match 538125
+2026-02-04 01:06:23,659 - db_utils - INFO - Inserted new match 538126
+2026-02-04 01:06:23,959 - db_utils - INFO - Inserted new match 538127
+2026-02-04 01:06:24,467 - db_utils - INFO - Inserted new match 538128
+2026-02-04 01:06:24,917 - db_utils - INFO - Inserted new match 538129
+2026-02-04 01:06:25,358 - db_utils - INFO - Inserted new match 538130
+2026-02-04 01:06:25,784 - db_utils - INFO - Inserted new match 538131
+2026-02-04 01:06:26,209 - db_utils - INFO - Inserted new match 538132
+2026-02-04 01:06:26,568 - db_utils - INFO - Inserted new match 538133
+2026-02-04 01:06:26,942 - db_utils - INFO - Inserted new match 538134
+2026-02-04 01:06:27,326 - db_utils - INFO - Inserted new match 538135
+2026-02-04 01:06:27,558 - db_utils - INFO - Inserted new match 538136
+2026-02-04 01:06:27,860 - db_utils - INFO - Inserted new match 538137
+2026-02-04 01:06:28,292 - db_utils - INFO - Inserted new match 538138
+2026-02-04 01:06:28,683 - db_utils - INFO - Inserted new match 538139
+2026-02-04 01:06:29,076 - db_utils - INFO - Inserted new match 538140
+2026-02-04 01:06:29,501 - db_utils - INFO - Inserted new match 538141
+2026-02-04 01:06:29,892 - db_utils - INFO - Inserted new match 538142
+2026-02-04 01:06:30,309 - db_utils - INFO - Inserted new match 538143
+2026-02-04 01:06:30,767 - db_utils - INFO - Inserted new match 538144
+2026-02-04 01:06:31,209 - db_utils - INFO - Inserted new match 538145
+2026-02-04 01:06:31,634 - db_utils - INFO - Inserted new match 538146
+2026-02-04 01:06:32,075 - db_utils - INFO - Inserted new match 538147
+2026-02-04 01:06:32,534 - db_utils - INFO - Inserted new match 538148
+2026-02-04 01:06:33,000 - db_utils - INFO - Inserted new match 538149
+2026-02-04 01:06:33,428 - db_utils - INFO - Inserted new match 538150
+2026-02-04 01:06:33,883 - db_utils - INFO - Inserted new match 538151
+2026-02-04 01:06:34,339 - db_utils - INFO - Inserted new match 538152
+2026-02-04 01:06:34,809 - db_utils - INFO - Inserted new match 538153
+2026-02-04 01:06:35,283 - db_utils - INFO - Inserted new match 538154
+2026-02-04 01:06:35,732 - db_utils - INFO - Inserted new match 538155
+2026-02-04 01:06:36,196 - db_utils - INFO - Inserted new match 538156
+2026-02-04 01:06:36,707 - db_utils - INFO - Inserted new match 538157
+2026-02-04 01:06:37,143 - db_utils - INFO - Inserted new match 538158
+2026-02-04 01:06:37,570 - db_utils - INFO - Inserted new match 538159
+2026-02-04 01:06:38,009 - db_utils - INFO - Inserted new match 538160
+2026-02-04 01:06:38,491 - db_utils - INFO - Inserted new match 538161
+2026-02-04 01:06:38,917 - db_utils - INFO - Inserted new match 538162
+2026-02-04 01:06:39,281 - db_utils - INFO - Inserted new match 538163
+2026-02-04 01:06:39,613 - db_utils - INFO - Inserted new match 538164
+2026-02-04 01:06:39,999 - process_data - INFO - Processed 380 matches successfully
+2026-02-04 01:06:53,710 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 01:06:53,712 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 01:13:56,415 - fetch_data - INFO - Fetching competitions...
+2026-02-04 01:13:57,638 - fetch_data - INFO - SUCCESS: competitions (latency: 1.22s)
+2026-02-04 01:13:57,645 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_011357.json
+2026-02-04 01:13:57,739 - fetch_data - INFO - Fetching matches for PL...
+2026-02-04 01:14:04,168 - fetch_data - INFO - SUCCESS: competitions/PL/matches (latency: 1.75s)
+2026-02-04 01:14:04,250 - fetch_data - INFO - Snapshot saved: data\snapshots\matches_PL_20260204_011404.json
+2026-02-04 01:14:04,296 - fetch_data - INFO - Fetching standings for PL...
+2026-02-04 01:14:09,832 - fetch_data - INFO - SUCCESS: competitions/PL/standings (latency: 1.42s)
+2026-02-04 01:14:09,840 - fetch_data - INFO - Snapshot saved: data\snapshots\standings_PL_20260204_011409.json
+2026-02-04 01:14:09,888 - fetch_data - INFO - Fetching top scorers for PL...
+2026-02-04 01:14:16,590 - fetch_data - INFO - SUCCESS: competitions/PL/scorers (latency: 2.17s)
+2026-02-04 01:14:16,599 - fetch_data - INFO - Snapshot saved: data\snapshots\scorers_PL_20260204_011416.json
+2026-02-04 01:14:16,655 - fetch_data - INFO - Fetching competitions...
+2026-02-04 01:14:21,769 - fetch_data - INFO - SUCCESS: competitions (latency: 1.35s)
+2026-02-04 01:14:21,776 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_011421.json
+2026-02-04 01:14:21,778 - fetch_data - INFO - Fetching competitions...
+2026-02-04 01:14:27,790 - fetch_data - INFO - SUCCESS: competitions (latency: 1.37s)
+2026-02-04 01:14:27,795 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_011427.json
+2026-02-04 01:14:27,796 - fetch_data - INFO - Fetching competitions...
+2026-02-04 01:14:33,644 - fetch_data - INFO - SUCCESS: competitions (latency: 1.23s)
+2026-02-04 01:14:33,649 - fetch_data - INFO - Snapshot saved: data\snapshots\competitions_20260204_011433.json
+2026-02-04 01:14:33,697 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 01:14:33,699 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
+2026-02-04 01:14:33,711 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 01:14:33,713 - db_utils - INFO - Database initialized at: data/sports.db
+2026-02-04 01:14:33,715 - process_data - INFO - Data processor initialized
+2026-02-04 01:14:33,721 - db_utils - INFO - Updated match 537785
+2026-02-04 01:14:34,158 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:34,161 - db_utils - INFO - Updated match 537786
+2026-02-04 01:14:34,633 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:34,639 - db_utils - INFO - Updated match 537787
+2026-02-04 01:14:35,119 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:35,129 - db_utils - INFO - Updated match 537789
+2026-02-04 01:14:35,625 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:35,632 - db_utils - INFO - Updated match 537790
+2026-02-04 01:14:36,117 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:36,128 - db_utils - INFO - Updated match 537791
+2026-02-04 01:14:36,591 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:36,594 - db_utils - INFO - Updated match 537788
+2026-02-04 01:14:37,074 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:37,077 - db_utils - INFO - Updated match 537792
+2026-02-04 01:14:37,524 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:37,527 - db_utils - INFO - Updated match 537793
+2026-02-04 01:14:38,024 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:38,028 - db_utils - INFO - Updated match 537794
+2026-02-04 01:14:38,500 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:38,504 - db_utils - INFO - Updated match 537804
+2026-02-04 01:14:38,974 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:38,978 - db_utils - INFO - Updated match 537802
+2026-02-04 01:14:39,441 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:39,444 - db_utils - INFO - Updated match 537795
+2026-02-04 01:14:39,916 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:39,921 - db_utils - INFO - Updated match 537798
+2026-02-04 01:14:40,436 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:40,441 - db_utils - INFO - Updated match 537799
+2026-02-04 01:14:40,908 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:40,916 - db_utils - INFO - Updated match 537797
+2026-02-04 01:14:41,392 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:41,399 - db_utils - INFO - Updated match 537796
+2026-02-04 01:14:41,886 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:41,898 - db_utils - INFO - Updated match 537800
+2026-02-04 01:14:42,408 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:42,412 - db_utils - INFO - Updated match 537801
+2026-02-04 01:14:42,916 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:42,921 - db_utils - INFO - Updated match 537803
+2026-02-04 01:14:43,366 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:43,375 - db_utils - INFO - Updated match 537808
+2026-02-04 01:14:43,857 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:43,861 - db_utils - INFO - Updated match 537805
+2026-02-04 01:14:44,342 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:44,350 - db_utils - INFO - Updated match 537811
+2026-02-04 01:14:44,882 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:44,887 - db_utils - INFO - Updated match 537813
+2026-02-04 01:14:45,375 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:45,383 - db_utils - INFO - Updated match 537814
+2026-02-04 01:14:45,874 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:45,878 - db_utils - INFO - Updated match 537810
+2026-02-04 01:14:46,441 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:46,444 - db_utils - INFO - Updated match 537807
+2026-02-04 01:14:46,935 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:46,954 - db_utils - INFO - Updated match 537812
+2026-02-04 01:14:47,449 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:47,455 - db_utils - INFO - Updated match 537809
+2026-02-04 01:14:47,966 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:47,970 - db_utils - INFO - Updated match 537806
+2026-02-04 01:14:48,524 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:48,526 - db_utils - INFO - Updated match 537817
+2026-02-04 01:14:49,075 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:49,082 - db_utils - INFO - Updated match 537815
+2026-02-04 01:14:49,655 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:49,658 - db_utils - INFO - Updated match 537816
+2026-02-04 01:14:50,233 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:50,237 - db_utils - INFO - Updated match 537820
+2026-02-04 01:14:50,849 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:50,854 - db_utils - INFO - Updated match 537821
+2026-02-04 01:14:51,368 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:51,379 - db_utils - INFO - Updated match 537823
+2026-02-04 01:14:51,876 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:51,890 - db_utils - INFO - Updated match 537824
+2026-02-04 01:14:52,442 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:52,523 - db_utils - INFO - Updated match 537818
+2026-02-04 01:14:52,982 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:52,985 - db_utils - INFO - Updated match 537819
+2026-02-04 01:14:53,616 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:53,622 - db_utils - INFO - Updated match 537822
+2026-02-04 01:14:54,191 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:54,206 - db_utils - INFO - Updated match 537831
+2026-02-04 01:14:54,807 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:54,812 - db_utils - INFO - Updated match 537827
+2026-02-04 01:14:55,304 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:55,311 - db_utils - INFO - Updated match 537829
+2026-02-04 01:14:55,882 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:55,889 - db_utils - INFO - Updated match 537833
+2026-02-04 01:14:56,432 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:56,437 - db_utils - INFO - Updated match 537834
+2026-02-04 01:14:57,089 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:57,107 - db_utils - INFO - Updated match 537832
+2026-02-04 01:14:57,649 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:57,662 - db_utils - INFO - Updated match 537830
+2026-02-04 01:14:58,208 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:58,219 - db_utils - INFO - Updated match 537825
+2026-02-04 01:14:58,754 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:58,775 - db_utils - INFO - Updated match 537826
+2026-02-04 01:14:59,332 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:59,339 - db_utils - INFO - Updated match 537828
+2026-02-04 01:14:59,899 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:14:59,905 - db_utils - INFO - Updated match 537837
+2026-02-04 01:15:00,516 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:00,521 - db_utils - INFO - Updated match 537836
+2026-02-04 01:15:01,132 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:01,141 - db_utils - INFO - Updated match 537838
+2026-02-04 01:15:01,774 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:01,779 - db_utils - INFO - Updated match 537840
+2026-02-04 01:15:02,399 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:02,405 - db_utils - INFO - Updated match 537841
+2026-02-04 01:15:03,032 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:03,037 - db_utils - INFO - Updated match 537843
+2026-02-04 01:15:03,669 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:03,681 - db_utils - INFO - Updated match 537844
+2026-02-04 01:15:04,290 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:04,297 - db_utils - INFO - Updated match 537835
+2026-02-04 01:15:04,906 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:04,909 - db_utils - INFO - Updated match 537842
+2026-02-04 01:15:05,556 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:05,560 - db_utils - INFO - Updated match 537839
+2026-02-04 01:15:06,182 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:06,188 - db_utils - INFO - Updated match 537845
+2026-02-04 01:15:06,752 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:06,757 - db_utils - INFO - Updated match 537851
+2026-02-04 01:15:07,374 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:07,376 - db_utils - INFO - Updated match 537847
+2026-02-04 01:15:08,024 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:08,028 - db_utils - INFO - Updated match 537852
+2026-02-04 01:15:08,646 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:08,652 - db_utils - INFO - Updated match 537849
+2026-02-04 01:15:09,340 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:09,343 - db_utils - INFO - Updated match 537846
+2026-02-04 01:15:09,948 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:09,953 - db_utils - INFO - Updated match 537850
+2026-02-04 01:15:10,557 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:10,559 - db_utils - INFO - Updated match 537853
+2026-02-04 01:15:11,165 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:11,170 - db_utils - INFO - Updated match 537854
+2026-02-04 01:15:11,790 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:11,793 - db_utils - INFO - Updated match 537848
+2026-02-04 01:15:12,425 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:12,446 - db_utils - INFO - Updated match 537862
+2026-02-04 01:15:13,099 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:13,107 - db_utils - INFO - Updated match 537856
+2026-02-04 01:15:13,740 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:13,743 - db_utils - INFO - Updated match 537857
+2026-02-04 01:15:14,413 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:14,419 - db_utils - INFO - Updated match 537858
+2026-02-04 01:15:14,997 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:15,004 - db_utils - INFO - Updated match 537861
+2026-02-04 01:15:15,631 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:15,637 - db_utils - INFO - Updated match 537855
+2026-02-04 01:15:16,298 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:16,306 - db_utils - INFO - Updated match 537859
+2026-02-04 01:15:16,906 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:16,910 - db_utils - INFO - Updated match 537863
+2026-02-04 01:15:17,631 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:17,637 - db_utils - INFO - Updated match 537860
+2026-02-04 01:15:18,206 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:18,210 - db_utils - INFO - Updated match 537864
+2026-02-04 01:15:18,847 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:18,854 - db_utils - INFO - Updated match 537871
+2026-02-04 01:15:19,447 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:19,452 - db_utils - INFO - Updated match 537869
+2026-02-04 01:15:20,077 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:20,080 - db_utils - INFO - Updated match 537873
+2026-02-04 01:15:20,681 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:20,686 - db_utils - INFO - Updated match 537872
+2026-02-04 01:15:21,322 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:21,324 - db_utils - INFO - Updated match 537868
+2026-02-04 01:15:21,964 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:21,971 - db_utils - INFO - Updated match 537865
+2026-02-04 01:15:22,605 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:22,608 - db_utils - INFO - Updated match 537866
+2026-02-04 01:15:23,231 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:23,237 - db_utils - INFO - Updated match 537867
+2026-02-04 01:15:23,848 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:23,863 - db_utils - INFO - Updated match 537874
+2026-02-04 01:15:24,731 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:24,736 - db_utils - INFO - Updated match 537870
+2026-02-04 01:15:25,331 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:25,337 - db_utils - INFO - Updated match 537876
+2026-02-04 01:15:26,056 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:26,059 - db_utils - INFO - Updated match 537877
+2026-02-04 01:15:26,656 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:26,658 - db_utils - INFO - Updated match 537878
+2026-02-04 01:15:27,289 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:27,292 - db_utils - INFO - Updated match 537879
+2026-02-04 01:15:27,822 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:27,825 - db_utils - INFO - Updated match 537882
+2026-02-04 01:15:28,456 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:28,463 - db_utils - INFO - Updated match 537883
+2026-02-04 01:15:29,131 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:29,138 - db_utils - INFO - Updated match 537880
+2026-02-04 01:15:29,756 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:29,768 - db_utils - INFO - Updated match 537884
+2026-02-04 01:15:30,414 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:30,419 - db_utils - INFO - Updated match 537881
+2026-02-04 01:15:31,077 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:31,087 - db_utils - INFO - Updated match 537875
+2026-02-04 01:15:31,714 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:31,719 - db_utils - INFO - Updated match 537893
+2026-02-04 01:15:32,339 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:32,341 - db_utils - INFO - Updated match 537890
+2026-02-04 01:15:32,956 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:32,958 - db_utils - INFO - Updated match 537894
+2026-02-04 01:15:33,580 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:33,585 - db_utils - INFO - Updated match 537885
+2026-02-04 01:15:34,199 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:34,218 - db_utils - INFO - Updated match 537889
+2026-02-04 01:15:34,872 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:34,875 - db_utils - INFO - Updated match 537886
+2026-02-04 01:15:35,557 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:35,564 - db_utils - INFO - Updated match 537887
+2026-02-04 01:15:36,230 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:36,234 - db_utils - INFO - Updated match 537888
+2026-02-04 01:15:36,837 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:36,841 - db_utils - INFO - Updated match 537892
+2026-02-04 01:15:37,430 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:37,438 - db_utils - INFO - Updated match 537891
+2026-02-04 01:15:37,997 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:38,001 - db_utils - INFO - Updated match 537898
+2026-02-04 01:15:38,613 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:38,618 - db_utils - INFO - Updated match 537895
+2026-02-04 01:15:39,113 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:39,118 - db_utils - INFO - Updated match 537896
+2026-02-04 01:15:39,606 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:39,610 - db_utils - INFO - Updated match 537899
+2026-02-04 01:15:40,188 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:40,192 - db_utils - INFO - Updated match 537900
+2026-02-04 01:15:40,837 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:40,842 - db_utils - INFO - Updated match 537904
+2026-02-04 01:15:41,446 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:41,453 - db_utils - INFO - Updated match 537903
+2026-02-04 01:15:42,070 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:42,074 - db_utils - INFO - Updated match 537901
+2026-02-04 01:15:42,680 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:42,686 - db_utils - INFO - Updated match 537897
+2026-02-04 01:15:43,297 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:43,301 - db_utils - INFO - Updated match 537902
+2026-02-04 01:15:43,913 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:43,922 - db_utils - INFO - Updated match 537905
+2026-02-04 01:15:44,571 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:44,574 - db_utils - INFO - Updated match 537908
+2026-02-04 01:15:45,271 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:45,274 - db_utils - INFO - Updated match 537911
+2026-02-04 01:15:45,913 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:45,920 - db_utils - INFO - Updated match 537910
+2026-02-04 01:15:46,472 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:46,475 - db_utils - INFO - Updated match 537913
+2026-02-04 01:15:47,005 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:47,007 - db_utils - INFO - Updated match 537907
+2026-02-04 01:15:47,505 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:47,508 - db_utils - INFO - Updated match 537906
+2026-02-04 01:15:48,146 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:48,153 - db_utils - INFO - Updated match 537912
+2026-02-04 01:15:48,713 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:48,718 - db_utils - INFO - Updated match 537914
+2026-02-04 01:15:49,312 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:49,316 - db_utils - INFO - Updated match 537909
+2026-02-04 01:15:49,938 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:49,943 - db_utils - INFO - Updated match 537915
+2026-02-04 01:15:50,537 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:50,543 - db_utils - INFO - Updated match 537919
+2026-02-04 01:15:51,154 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:51,157 - db_utils - INFO - Updated match 537923
+2026-02-04 01:15:51,796 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:51,801 - db_utils - INFO - Updated match 537916
+2026-02-04 01:15:52,387 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:52,390 - db_utils - INFO - Updated match 537917
+2026-02-04 01:15:52,996 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:52,999 - db_utils - INFO - Updated match 537918
+2026-02-04 01:15:53,729 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:53,735 - db_utils - INFO - Updated match 537924
+2026-02-04 01:15:54,346 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:54,352 - db_utils - INFO - Updated match 537920
+2026-02-04 01:15:55,021 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:55,025 - db_utils - INFO - Updated match 537921
+2026-02-04 01:15:55,638 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:55,642 - db_utils - INFO - Updated match 537922
+2026-02-04 01:15:56,221 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:56,225 - db_utils - INFO - Updated match 537926
+2026-02-04 01:15:56,829 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:56,836 - db_utils - INFO - Updated match 537925
+2026-02-04 01:15:57,454 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:57,457 - db_utils - INFO - Updated match 537928
+2026-02-04 01:15:58,063 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:58,067 - db_utils - INFO - Updated match 537931
+2026-02-04 01:15:58,671 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:58,675 - db_utils - INFO - Updated match 537932
+2026-02-04 01:15:59,263 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:59,266 - db_utils - INFO - Updated match 537933
+2026-02-04 01:15:59,904 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:15:59,907 - db_utils - INFO - Updated match 537930
+2026-02-04 01:16:00,505 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:00,510 - db_utils - INFO - Updated match 537927
+2026-02-04 01:16:01,154 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:01,157 - db_utils - INFO - Updated match 537929
+2026-02-04 01:16:01,788 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:01,791 - db_utils - INFO - Updated match 537934
+2026-02-04 01:16:02,404 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:02,407 - db_utils - INFO - Updated match 537940
+2026-02-04 01:16:03,037 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:03,040 - db_utils - INFO - Updated match 537941
+2026-02-04 01:16:03,662 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:03,667 - db_utils - INFO - Updated match 537939
+2026-02-04 01:16:04,262 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:04,268 - db_utils - INFO - Updated match 537937
+2026-02-04 01:16:04,912 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:04,918 - db_utils - INFO - Updated match 537935
+2026-02-04 01:16:05,545 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:05,551 - db_utils - INFO - Updated match 537936
+2026-02-04 01:16:06,246 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:06,261 - db_utils - INFO - Updated match 537943
+2026-02-04 01:16:06,946 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:06,974 - db_utils - INFO - Updated match 537944
+2026-02-04 01:16:07,604 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:07,606 - db_utils - INFO - Updated match 537938
+2026-02-04 01:16:08,203 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:08,207 - db_utils - INFO - Updated match 537942
+2026-02-04 01:16:08,745 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:08,750 - db_utils - INFO - Updated match 537952
+2026-02-04 01:16:09,262 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:09,266 - db_utils - INFO - Updated match 537945
+2026-02-04 01:16:09,820 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:09,824 - db_utils - INFO - Updated match 537947
+2026-02-04 01:16:10,445 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:10,450 - db_utils - INFO - Updated match 537951
+2026-02-04 01:16:11,045 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:11,051 - db_utils - INFO - Updated match 537954
+2026-02-04 01:16:11,562 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:11,573 - db_utils - INFO - Updated match 537953
+2026-02-04 01:16:12,137 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:12,140 - db_utils - INFO - Updated match 537948
+2026-02-04 01:16:12,578 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:12,582 - db_utils - INFO - Updated match 537950
+2026-02-04 01:16:13,153 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:13,157 - db_utils - INFO - Updated match 537946
+2026-02-04 01:16:13,720 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:13,724 - db_utils - INFO - Updated match 537949
+2026-02-04 01:16:14,245 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:14,250 - db_utils - INFO - Updated match 537962
+2026-02-04 01:16:14,787 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:14,790 - db_utils - INFO - Updated match 537963
+2026-02-04 01:16:15,336 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:15,339 - db_utils - INFO - Updated match 537957
+2026-02-04 01:16:15,970 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:15,974 - db_utils - INFO - Updated match 537958
+2026-02-04 01:16:16,487 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:16,493 - db_utils - INFO - Updated match 537959
+2026-02-04 01:16:17,090 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:17,102 - db_utils - INFO - Updated match 537961
+2026-02-04 01:16:17,725 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:17,739 - db_utils - INFO - Updated match 537964
+2026-02-04 01:16:18,389 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:18,399 - db_utils - INFO - Updated match 537960
+2026-02-04 01:16:19,020 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:19,024 - db_utils - INFO - Updated match 537955
+2026-02-04 01:16:19,636 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:19,643 - db_utils - INFO - Updated match 537956
+2026-02-04 01:16:20,210 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:20,216 - db_utils - INFO - Updated match 537969
+2026-02-04 01:16:20,845 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:20,851 - db_utils - INFO - Updated match 537970
+2026-02-04 01:16:21,460 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:21,467 - db_utils - INFO - Updated match 537973
+2026-02-04 01:16:22,078 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:22,086 - db_utils - INFO - Updated match 537974
+2026-02-04 01:16:22,586 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:22,589 - db_utils - INFO - Updated match 537967
+2026-02-04 01:16:23,119 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:23,124 - db_utils - INFO - Updated match 537972
+2026-02-04 01:16:23,669 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:23,672 - db_utils - INFO - Updated match 537966
+2026-02-04 01:16:24,119 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:24,123 - db_utils - INFO - Updated match 537971
+2026-02-04 01:16:24,719 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:24,724 - db_utils - INFO - Updated match 537965
+2026-02-04 01:16:25,394 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:25,401 - db_utils - INFO - Updated match 537968
+2026-02-04 01:16:25,969 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:25,972 - db_utils - INFO - Updated match 537976
+2026-02-04 01:16:26,619 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:26,622 - db_utils - INFO - Updated match 537977
+2026-02-04 01:16:27,328 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:27,333 - db_utils - INFO - Updated match 537984
+2026-02-04 01:16:27,936 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:27,940 - db_utils - INFO - Updated match 537975
+2026-02-04 01:16:28,545 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:28,552 - db_utils - INFO - Updated match 537980
+2026-02-04 01:16:29,103 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:29,108 - db_utils - INFO - Updated match 537978
+2026-02-04 01:16:29,678 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:29,689 - db_utils - INFO - Updated match 537982
+2026-02-04 01:16:30,344 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:30,349 - db_utils - INFO - Updated match 537983
+2026-02-04 01:16:30,969 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:30,973 - db_utils - INFO - Updated match 537979
+2026-02-04 01:16:31,638 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:31,651 - db_utils - INFO - Updated match 537981
+2026-02-04 01:16:32,253 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:32,257 - db_utils - INFO - Updated match 537994
+2026-02-04 01:16:32,827 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:32,832 - db_utils - INFO - Updated match 537985
+2026-02-04 01:16:33,377 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:33,380 - db_utils - INFO - Updated match 537986
+2026-02-04 01:16:33,994 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:33,999 - db_utils - INFO - Updated match 537988
+2026-02-04 01:16:34,594 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:34,601 - db_utils - INFO - Updated match 537990
+2026-02-04 01:16:35,210 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:35,216 - db_utils - INFO - Updated match 537991
+2026-02-04 01:16:35,819 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:35,823 - db_utils - INFO - Updated match 537992
+2026-02-04 01:16:36,477 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:36,483 - db_utils - INFO - Updated match 537989
+2026-02-04 01:16:37,094 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:37,097 - db_utils - INFO - Updated match 537993
+2026-02-04 01:16:37,701 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:37,704 - db_utils - INFO - Updated match 537987
+2026-02-04 01:16:38,335 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:38,344 - db_utils - INFO - Updated match 538001
+2026-02-04 01:16:38,918 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:38,921 - db_utils - INFO - Updated match 537995
+2026-02-04 01:16:39,527 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:39,531 - db_utils - INFO - Updated match 537998
+2026-02-04 01:16:40,118 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:40,121 - db_utils - INFO - Updated match 537999
+2026-02-04 01:16:40,778 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:40,789 - db_utils - INFO - Updated match 538000
+2026-02-04 01:16:41,409 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:41,413 - db_utils - INFO - Updated match 538003
+2026-02-04 01:16:42,060 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:42,064 - db_utils - INFO - Updated match 538002
+2026-02-04 01:16:42,684 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:42,687 - db_utils - INFO - Updated match 538004
+2026-02-04 01:16:43,310 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:43,315 - db_utils - INFO - Updated match 537996
+2026-02-04 01:16:44,002 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:44,005 - db_utils - INFO - Updated match 537997
+2026-02-04 01:16:44,585 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:44,588 - db_utils - INFO - Updated match 538014
+2026-02-04 01:16:45,243 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:45,249 - db_utils - INFO - Updated match 538009
+2026-02-04 01:16:45,810 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:45,816 - db_utils - INFO - Updated match 538011
+2026-02-04 01:16:46,392 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:46,397 - db_utils - INFO - Updated match 538012
+2026-02-04 01:16:46,976 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:46,980 - db_utils - INFO - Updated match 538005
+2026-02-04 01:16:47,584 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:47,588 - db_utils - INFO - Updated match 538006
+2026-02-04 01:16:48,201 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:48,204 - db_utils - INFO - Updated match 538008
+2026-02-04 01:16:48,826 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:48,832 - db_utils - INFO - Updated match 538013
+2026-02-04 01:16:49,484 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:49,487 - db_utils - INFO - Updated match 538007
+2026-02-04 01:16:50,119 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:50,124 - db_utils - INFO - Updated match 538010
+2026-02-04 01:16:50,756 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:50,773 - db_utils - INFO - Updated match 538017
+2026-02-04 01:16:51,392 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:51,397 - db_utils - INFO - Updated match 538020
+2026-02-04 01:16:52,035 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:52,037 - db_utils - INFO - Updated match 538024
+2026-02-04 01:16:52,659 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:52,662 - db_utils - INFO - Updated match 538018
+2026-02-04 01:16:53,268 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:53,272 - db_utils - INFO - Updated match 538019
+2026-02-04 01:16:53,910 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:53,915 - db_utils - INFO - Updated match 538016
+2026-02-04 01:16:54,518 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:54,522 - db_utils - INFO - Updated match 538021
+2026-02-04 01:16:55,243 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:55,248 - db_utils - INFO - Updated match 538022
+2026-02-04 01:16:55,776 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:55,780 - db_utils - INFO - Updated match 538023
+2026-02-04 01:16:56,351 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:56,355 - db_utils - INFO - Updated match 538015
+2026-02-04 01:16:56,959 - db_utils - INFO - Inserted 2 player stat records
+2026-02-04 01:16:56,966 - db_utils - INFO - Updated match 538031
+2026-02-04 01:16:57,384 - db_utils - INFO - Updated match 538032
+2026-02-04 01:16:57,882 - db_utils - INFO - Updated match 538025
+2026-02-04 01:16:58,297 - db_utils - INFO - Updated match 538027
+2026-02-04 01:16:58,727 - db_utils - INFO - Updated match 538028
+2026-02-04 01:16:59,151 - db_utils - INFO - Updated match 538029
+2026-02-04 01:16:59,586 - db_utils - INFO - Updated match 538034
+2026-02-04 01:17:00,068 - db_utils - INFO - Updated match 538033
+2026-02-04 01:17:00,540 - db_utils - INFO - Updated match 538026
+2026-02-04 01:17:00,968 - db_utils - INFO - Updated match 538030
+2026-02-04 01:17:01,427 - db_utils - INFO - Updated match 538039
+2026-02-04 01:17:01,877 - db_utils - INFO - Updated match 538040
+2026-02-04 01:17:02,310 - db_utils - INFO - Updated match 538043
+2026-02-04 01:17:02,735 - db_utils - INFO - Updated match 538044
+2026-02-04 01:17:03,160 - db_utils - INFO - Updated match 538036
+2026-02-04 01:17:03,494 - db_utils - INFO - Updated match 538037
+2026-02-04 01:17:03,877 - db_utils - INFO - Updated match 538041
+2026-02-04 01:17:04,211 - db_utils - INFO - Updated match 538042
+2026-02-04 01:17:04,586 - db_utils - INFO - Updated match 538035
+2026-02-04 01:17:04,985 - db_utils - INFO - Updated match 538038
+2026-02-04 01:17:05,377 - db_utils - INFO - Updated match 538046
+2026-02-04 01:17:05,802 - db_utils - INFO - Updated match 538048
+2026-02-04 01:17:06,142 - db_utils - INFO - Updated match 538049
+2026-02-04 01:17:06,610 - db_utils - INFO - Updated match 538054
+2026-02-04 01:17:07,053 - db_utils - INFO - Updated match 538051
+2026-02-04 01:17:07,460 - db_utils - INFO - Updated match 538045
+2026-02-04 01:17:07,894 - db_utils - INFO - Updated match 538047
+2026-02-04 01:17:08,293 - db_utils - INFO - Updated match 538052
+2026-02-04 01:17:08,720 - db_utils - INFO - Updated match 538053
+2026-02-04 01:17:09,161 - db_utils - INFO - Updated match 538050
+2026-02-04 01:17:09,627 - db_utils - INFO - Updated match 538064
+2026-02-04 01:17:10,063 - db_utils - INFO - Updated match 538055
+2026-02-04 01:17:10,506 - db_utils - INFO - Updated match 538058
+2026-02-04 01:17:10,993 - db_utils - INFO - Updated match 538060
+2026-02-04 01:17:11,448 - db_utils - INFO - Updated match 538063
+2026-02-04 01:17:11,894 - db_utils - INFO - Updated match 538061
+2026-02-04 01:17:12,327 - db_utils - INFO - Updated match 538056
+2026-02-04 01:17:12,754 - db_utils - INFO - Updated match 538059
+2026-02-04 01:17:13,177 - db_utils - INFO - Updated match 538062
+2026-02-04 01:17:13,685 - db_utils - INFO - Updated match 538057
+2026-02-04 01:17:14,019 - db_utils - INFO - Updated match 538065
+2026-02-04 01:17:14,351 - db_utils - INFO - Updated match 538068
+2026-02-04 01:17:14,668 - db_utils - INFO - Updated match 538070
+2026-02-04 01:17:15,043 - db_utils - INFO - Updated match 538074
+2026-02-04 01:17:15,377 - db_utils - INFO - Updated match 538066
+2026-02-04 01:17:15,768 - db_utils - INFO - Updated match 538067
+2026-02-04 01:17:16,195 - db_utils - INFO - Updated match 538069
+2026-02-04 01:17:16,709 - db_utils - INFO - Updated match 538071
+2026-02-04 01:17:17,043 - db_utils - INFO - Updated match 538072
+2026-02-04 01:17:17,426 - db_utils - INFO - Updated match 538073
+2026-02-04 01:17:17,893 - db_utils - INFO - Updated match 538084
+2026-02-04 01:17:18,327 - db_utils - INFO - Updated match 538075
+2026-02-04 01:17:18,793 - db_utils - INFO - Updated match 538076
+2026-02-04 01:17:19,185 - db_utils - INFO - Updated match 538079
+2026-02-04 01:17:19,534 - db_utils - INFO - Updated match 538082
+2026-02-04 01:17:19,868 - db_utils - INFO - Updated match 538083
+2026-02-04 01:17:20,302 - db_utils - INFO - Updated match 538080
+2026-02-04 01:17:20,703 - db_utils - INFO - Updated match 538077
+2026-02-04 01:17:21,151 - db_utils - INFO - Updated match 538081
+2026-02-04 01:17:21,535 - db_utils - INFO - Updated match 538078
+2026-02-04 01:17:21,869 - db_utils - INFO - Updated match 538085
+2026-02-04 01:17:22,310 - db_utils - INFO - Updated match 538087
+2026-02-04 01:17:22,760 - db_utils - INFO - Updated match 538086
+2026-02-04 01:17:23,293 - db_utils - INFO - Updated match 538089
+2026-02-04 01:17:23,742 - db_utils - INFO - Updated match 538091
+2026-02-04 01:17:24,193 - db_utils - INFO - Updated match 538094
+2026-02-04 01:17:24,626 - db_utils - INFO - Updated match 538088
+2026-02-04 01:17:25,043 - db_utils - INFO - Updated match 538090
+2026-02-04 01:17:25,452 - db_utils - INFO - Updated match 538092
+2026-02-04 01:17:25,893 - db_utils - INFO - Updated match 538093
+2026-02-04 01:17:26,327 - db_utils - INFO - Updated match 538095
+2026-02-04 01:17:26,634 - db_utils - INFO - Updated match 538096
+2026-02-04 01:17:27,068 - db_utils - INFO - Updated match 538097
+2026-02-04 01:17:27,493 - db_utils - INFO - Updated match 538098
+2026-02-04 01:17:27,918 - db_utils - INFO - Updated match 538099
+2026-02-04 01:17:28,341 - db_utils - INFO - Updated match 538100
+2026-02-04 01:17:28,808 - db_utils - INFO - Updated match 538101
+2026-02-04 01:17:29,267 - db_utils - INFO - Updated match 538102
+2026-02-04 01:17:29,692 - db_utils - INFO - Updated match 538103
+2026-02-04 01:17:30,117 - db_utils - INFO - Updated match 538104
+2026-02-04 01:17:30,542 - db_utils - INFO - Updated match 538112
+2026-02-04 01:17:30,943 - db_utils - INFO - Updated match 538113
+2026-02-04 01:17:31,416 - db_utils - INFO - Updated match 538114
+2026-02-04 01:17:31,851 - db_utils - INFO - Updated match 538105
+2026-02-04 01:17:32,277 - db_utils - INFO - Updated match 538106
+2026-02-04 01:17:32,717 - db_utils - INFO - Updated match 538107
+2026-02-04 01:17:33,222 - db_utils - INFO - Updated match 538108
+2026-02-04 01:17:33,690 - db_utils - INFO - Updated match 538109
+2026-02-04 01:17:34,134 - db_utils - INFO - Updated match 538110
+2026-02-04 01:17:34,618 - db_utils - INFO - Updated match 538111
+2026-02-04 01:17:35,034 - db_utils - INFO - Updated match 538115
+2026-02-04 01:17:35,475 - db_utils - INFO - Updated match 538116
+2026-02-04 01:17:35,893 - db_utils - INFO - Updated match 538117
+2026-02-04 01:17:36,308 - db_utils - INFO - Updated match 538118
+2026-02-04 01:17:36,762 - db_utils - INFO - Updated match 538119
+2026-02-04 01:17:37,192 - db_utils - INFO - Updated match 538120
+2026-02-04 01:17:37,617 - db_utils - INFO - Updated match 538121
+2026-02-04 01:17:38,033 - db_utils - INFO - Updated match 538122
+2026-02-04 01:17:38,476 - db_utils - INFO - Updated match 538123
+2026-02-04 01:17:38,899 - db_utils - INFO - Updated match 538124
+2026-02-04 01:17:39,394 - db_utils - INFO - Updated match 538125
+2026-02-04 01:17:39,833 - db_utils - INFO - Updated match 538126
+2026-02-04 01:17:40,317 - db_utils - INFO - Updated match 538127
+2026-02-04 01:17:40,738 - db_utils - INFO - Updated match 538128
+2026-02-04 01:17:41,163 - db_utils - INFO - Updated match 538129
+2026-02-04 01:17:41,611 - db_utils - INFO - Updated match 538130
+2026-02-04 01:17:42,105 - db_utils - INFO - Updated match 538131
+2026-02-04 01:17:42,505 - db_utils - INFO - Updated match 538132
+2026-02-04 01:17:42,954 - db_utils - INFO - Updated match 538133
+2026-02-04 01:17:43,417 - db_utils - INFO - Updated match 538134
+2026-02-04 01:17:43,884 - db_utils - INFO - Updated match 538135
+2026-02-04 01:17:44,331 - db_utils - INFO - Updated match 538136
+2026-02-04 01:17:44,750 - db_utils - INFO - Updated match 538137
+2026-02-04 01:17:45,226 - db_utils - INFO - Updated match 538138
+2026-02-04 01:17:45,734 - db_utils - INFO - Updated match 538139
+2026-02-04 01:17:46,183 - db_utils - INFO - Updated match 538140
+2026-02-04 01:17:46,549 - db_utils - INFO - Updated match 538141
+2026-02-04 01:17:46,966 - db_utils - INFO - Updated match 538142
+2026-02-04 01:17:47,402 - db_utils - INFO - Updated match 538143
+2026-02-04 01:17:47,808 - db_utils - INFO - Updated match 538144
+2026-02-04 01:17:48,216 - db_utils - INFO - Updated match 538145
+2026-02-04 01:17:48,684 - db_utils - INFO - Updated match 538146
+2026-02-04 01:17:49,175 - db_utils - INFO - Updated match 538147
+2026-02-04 01:17:49,625 - db_utils - INFO - Updated match 538148
+2026-02-04 01:17:50,050 - db_utils - INFO - Updated match 538149
+2026-02-04 01:17:50,492 - db_utils - INFO - Updated match 538150
+2026-02-04 01:17:50,974 - db_utils - INFO - Updated match 538151
+2026-02-04 01:17:51,391 - db_utils - INFO - Updated match 538152
+2026-02-04 01:17:51,825 - db_utils - INFO - Updated match 538153
+2026-02-04 01:17:52,241 - db_utils - INFO - Updated match 538154
+2026-02-04 01:17:52,742 - db_utils - INFO - Updated match 538155
+2026-02-04 01:17:53,180 - db_utils - INFO - Updated match 538156
+2026-02-04 01:17:53,616 - db_utils - INFO - Updated match 538157
+2026-02-04 01:17:54,016 - db_utils - INFO - Updated match 538158
+2026-02-04 01:17:54,475 - db_utils - INFO - Updated match 538159
+2026-02-04 01:17:54,899 - db_utils - INFO - Updated match 538160
+2026-02-04 01:17:55,316 - db_utils - INFO - Updated match 538161
+2026-02-04 01:17:55,624 - db_utils - INFO - Updated match 538162
+2026-02-04 01:17:56,049 - db_utils - INFO - Updated match 538163
+2026-02-04 01:17:56,475 - db_utils - INFO - Updated match 538164
+2026-02-04 01:17:56,899 - process_data - INFO - Processed 380 matches successfully
+2026-02-04 01:17:56,953 - db_utils - INFO - Database schema initialized successfully
+2026-02-04 01:17:56,954 - db_utils - INFO - Database initialized at: e:\dev\writeups\data_projects_fl\project_3\data\db\football_data.db
