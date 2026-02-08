@@ -28,3 +28,9 @@ Bondora’s P2P lending model allows investors to fund personal loans. However, 
 2. Place `loan_dataset_investor.xlsx` in `data/raw/`.
 3. Run `src/clean_data.py` to prepare the data.
 4. Explore results in the `notebooks/` folder.
+
+## Sample Screenshot from Tableau Dashboard
+
+### ![Risk Assessment Dashboard](tableau/screenshots/risk_assessment_dashboard.png)
+
+#### Interactive view of default risk factors and borrower segmentation
